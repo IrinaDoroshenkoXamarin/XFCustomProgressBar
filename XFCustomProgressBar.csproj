@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>XFCustomProgressBar.doroshenko_iryna</PackageId>
+    <Id>XFCustomProgressBar.doroshenko_iryna</Id>
+    <Version>1.0.0</Version>
+    <Authors>doroshenko_iryna</Authors>
+    <Company>doroshenko_iryna</Company>
+     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Customized progress bar for iOS and Android</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2021</copyright>
+    <tags>xamarinforms proggressbar progress</tags>
+    <title>XFCustomProgressBar</title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Controls\" />
+    <None Remove="Enums\" />
+    <None Remove="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controls\" />
+    <Folder Include="Enums\" />
+    <Folder Include="Resources\" />
+  </ItemGroup>
+</Project>
