@@ -12,7 +12,7 @@ HeightRequest and CornerRadius
 
 Start and End colours for brushes; Text font and Text colors of percentage label; Funny fill process bar animation 😃
 
-See sample:
+Just add reference:  xmlns:customControls="clr-namespace:CustomProgressBar.Controls;"
 
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
