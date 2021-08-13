@@ -10,10 +10,10 @@
     <Authors>doroshenko_iryna</Authors>
     <Company>doroshenko_iryna</Company>
      <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Customized progress bar for iOS and Android</description>
-    <releaseNotes>First release</releaseNotes>
+    <description>Xamarin.Forms Customized progress bar for iOS and Android with animation and possibility to select brush type and customize borders, backgrounds and lot of things. </description>
+    <releaseNotes>Fixed percentage counting</releaseNotes>
     <copyright>Copyright 2021</copyright>
-    <tags>xamarinforms proggressbar progress</tags>
+    <tags>xamarinforms proggressbar progress custimized xfbar</tags>
     <title>XFCustomProgressBar</title>
   </PropertyGroup>
 
